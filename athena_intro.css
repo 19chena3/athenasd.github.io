@@ -1,0 +1,129 @@
+body {
+    font-family: Lucida Grande, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #990000;
+    color: white;
+    h1 {
+        font-family: Georgia;
+        font-size: 36px;
+    }
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+header.h1:hover{
+    font-size: 110%;
+}
+
+.p {
+    font-family: "Lucida Grande";
+}
+
+/* Navigation Bar */
+nav {
+    background: rgb(196, 35, 35);
+    padding: 5px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    font-size:110%;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: red;
+    font-size:110%;
+}
+
+
+/* Section */
+section {
+    background: white;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin: 30px auto;
+    max-width: 800px;
+    /*border-radius: 10px;*/
+   /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);*/
+}
+
+h2{
+    font-family:Georgia;
+}
+
+/* Image Gallery with Flexbox */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-container img {
+    border-radius: 8px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* List Styling */
+ul {
+    list-style: square;
+    padding-left: 20px;
+
+}
+
+ul li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #900;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
